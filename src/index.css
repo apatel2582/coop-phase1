@@ -8,9 +8,7 @@ body {
 }
 
 .App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #282c34;
+  @apply flex items-center justify-center min-h-screen bg-gray-800 p-3 rounded shadow-lg text-white;
+  width: auto;
+  height: auto;
 }
